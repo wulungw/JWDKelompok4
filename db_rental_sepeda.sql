@@ -39,6 +39,10 @@ CREATE TABLE `tbtransaksi` (
 
 
 
+INSERT INTO `tbsepeda` (`idsepeda`, `nama`, `merek`, `kategori`, `harga`, `status`) VALUES
+('SP001', 'Lorem ipsum.', 'Lorem ipsum dolor sit.', 'Sepeda Hybrid', 200000, 'Tersedia');
+INSERT INTO `tbsepeda` (`idsepeda`, `nama`, `merek`, `kategori`, `harga`, `status`) VALUES
+('SP002', 'Explicabo Velit imp', 'Minim sequi dolores ', 'Sepeda Lipat', 100000, 'Tersedia');
 
 
 

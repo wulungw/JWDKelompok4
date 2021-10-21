@@ -65,10 +65,10 @@ $tgl = date('Y-m-d');
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="index.php?p=buku" class="nav-link">
-								<i class="nav-icon fas fa-book"></i>
+							<a href="index.php?p=sepeda" class="nav-link">
+								<i class="nav-icon fas fa-bicycle"></i>
 								<p>
-									Data Buku
+									Data Jenis Sepeda
 								</p>
 							</a>
 						</li>
