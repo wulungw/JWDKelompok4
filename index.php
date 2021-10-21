@@ -10,7 +10,7 @@ $tgl = date('Y-m-d');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Aplikasi Rental Sepeda</title>
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/Logo.svg" type="image/x-icon">
 	<!-- Theme style -->
@@ -27,14 +27,14 @@ $tgl = date('Y-m-d');
 			<!-- Left navbar links -->
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+					<a class="nav-link"data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"data-widget="pushmenu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
 				</li>
 			</ul>
 		</nav>
 		<!-- /.navbar -->
 
 		<!-- Main Sidebar Container -->
-		<aside class="main-sidebar sidebar-dark-white bg-navy elevation-4">
+		<aside class="collapse main-sidebar sidebar-dark-white bg-navy elevation-4" id="navbarToggleExternalContent">
 			<!-- Brand Logo -->
 			<a href="index.php?p=beranda" class="brand-link">
 				<img src="images/Logo.svg" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -112,7 +112,8 @@ $tgl = date('Y-m-d');
 			<strong>Aplikasi Rental Sepeda (GoCycle)</strong>
 		</footer>
 	</div>
-
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>				
 	<!-- jQuery -->
 	<script src="plugins/jquery/jquery.min.js"></script>
 	<!-- jQuery UI 1.11.4 -->
