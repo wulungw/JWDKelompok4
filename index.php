@@ -9,10 +9,10 @@ $tgl = date('Y-m-d');
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sistem Informasi Perpustakaan</title>
+	<title>Aplikasi Rental Sepeda</title>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="images/logo-perpustakaan.png" type="image/x-icon">
+	<link rel="shortcut icon" href="images/Logo.svg" type="image/x-icon">
 	<!-- Theme style -->
 	<link rel="stylesheet" href="dist/css/adminlte.min.css">
 	<!-- Icon -->
@@ -38,7 +38,7 @@ $tgl = date('Y-m-d');
 			<!-- Brand Logo -->
 			<a href="index.php?p=beranda" class="brand-link">
 				<img src="images/Logo.svg" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-				<span class="brand-text font-weight-light">Perpustakaan</span>
+				<span class="brand-text font-weight-light">Rental Sepeda</span>
 			</a>
 
 			<!-- Sidebar -->
@@ -109,7 +109,7 @@ $tgl = date('Y-m-d');
 		</div>
 
 		<footer class="main-footer">
-			<strong>Sistem Informasi Perpustakaan (sipus) | Praktikum</strong>
+			<strong>Aplikasi Rental Sepeda (GoCycle)</strong>
 		</footer>
 	</div>
 
